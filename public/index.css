@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+  
+  figure {
+    margin-bottom: 30px;
+  }
+  
+  
+  div > h1 {
+    font-size: 1.8rem;
+  }
+  
+  .pill-black, .pill-white {
+    border: 0.5px solid;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .pill-black {
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  
+  footer {
+    margin-top: 20px;
+  }
+  
+  footer div {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Customizations of Bootstrap classes */
+  
+  header .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  section.container .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    height: 450px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/buildawebsite.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .jumbotron h1 {
+    background-color: #FFFFFF;
+    display: inline-block;
+    color: #F06529;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+  }
+  
+
+  .col-sm-1 img {
+    min-width: 32px;
+    min-height: 33px;
+  }

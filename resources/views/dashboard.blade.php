@@ -2,6 +2,11 @@
 
 @section('content')
     <div class="container mt-5">
-        <h1>Welcome!</h1>
+        <div class="jumbotron">
+            <div class="row text-center">
+            <h1>WELCOME TO THE DASHBOARD</h1>
+            </div>
+        </div>
     </div>
+    
 @endsection

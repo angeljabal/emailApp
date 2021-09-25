@@ -26,7 +26,7 @@ class AuthController extends Controller
         $request->validate([
             'name'      =>  'required|string',
             'email'     =>  'required|email|unique:users',
-            'password'  =>  'required|string',
+            'password'  =>  'required|string|confirmed|min:6',
             'phonenum'  =>  'required|string'
         ]);
 
@@ -70,7 +70,7 @@ class AuthController extends Controller
             return back()->with('Error', 'Invalid Credentials');
         }
 
-        return redirect('/dashboard')->with('Message', 'Login Successful');
+        return redirect('/dashboard');
     }
 
     public function verification(User $user, $token){

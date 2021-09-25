@@ -26,7 +26,11 @@
                             </div>
                             <div class="mb-3">
                                 <label for="password">Password</label>
-                                <input type="password" name="password" id="password" class="form-control">
+                                <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password_confirmation">Confirm Password</label>
+                                <input type="password" name="password_confirmation" id="password_confirmation" class="form-control" placeholder="Re-enter Password">
                             </div>
                             <button class="btn btn-primary" type="submit">Register</button>
                         </form>

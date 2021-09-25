@@ -7,10 +7,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ URL::asset('index.css') }}" />
+
     <style>
         .navbar, .btn {
             background-image: linear-gradient(#6a9ce6, #0D6EFD, #0dc5fd);
         }
+        
     </style>
     <title>IPT Systems</title>
 </head>
@@ -76,5 +79,9 @@
     <div class="container">
         @yield('content')
     </div>
+    <footer class="container fixed-bottom">
+        <hr class="my-4">
+        <p>Developed by: Angel Jabal</p>
+    </footer>
 </body>
 </html>
